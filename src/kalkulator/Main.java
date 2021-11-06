@@ -26,7 +26,13 @@ public class Main {
 					continue;
 				}
 
+				 int x = Integer.parseInt(pars[0]);
+				 int y = Integer.parseInt(pars[2]);
 				 
+				 if(pars[1].equals("+"))
+				 {
+					 System.out.println(x+y);
+				 }
 
 			}while(!s.equals("kraj"));
 			
